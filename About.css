@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+.hero{
+
+position: relative;
+width: 100%;
+height: 100vh;
+background-image: linear-gradient( 139.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+}
+
+
+
+nav{
+display: flex;
+width: 95%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+}
+.hero nav h3{
+font-size: 30px;
+	background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px ;
+	font-size: 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+span{
+font-size: 25px;
+font-weight: bold;
+color: green;
+
+}
+
+
+
+
+
+
+
+.detel{
+	
+	margin: 3% 5% 5% 40%;
+}
+
+
+.detel h1{
+font-size:60px;
+font-weight: bold;
+margin-left: 15%;
+background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.detel h2{
+	color: #d25429;
+font-size:50px;
+font-weight: bold;
+margin-left: 25%;
+background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.detel p{
+	
+	margin: 5% 4%;
+	font-size:17px;
+	background: -webkit-linear-gradient(#68216B, #100300);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+
+
+
+
+.image{
+width: 41%;
+height: 90%;
+position: absolute;
+bottom: 0;
+left: 0;
+top: 40;
+
+}
+
+.image img{
+
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 1%;
+	transform: translate(-40%);
+	transition: bottom 1s, left 1s;
+	width: 100%;
+}
+
+
+
+
+
+
+
+

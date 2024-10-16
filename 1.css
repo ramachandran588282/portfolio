@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+.hero{
+
+position: relative;
+width: 100%;
+height: 100vh;
+/*background:linear-gradient(45deg,  lightgreen,blueviolet);*/
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+
+
+nav{
+display: flex;
+width: 95%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
+}
+
+nav h3{
+	font-size: 25px;
+	background: -webkit-linear-gradient(#ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px ;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+span{
+font-size: 25px;
+font-weight: bold;
+
+margin-left: 1%;
+background: -webkit-linear-gradient(#833ab4,#fd1d1d,#fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+.detel a:hover{
+	color: red;}
+
+
+
+
+.detel{
+	margin-left: 13%;
+	margin-top: 10%;
+}
+
+
+
+.detel h1{
+	font-weight: bold;
+	margin-top: 5px;	
+	font-size: 60px;
+	background: -webkit-linear-gradient(#304352,#3d72b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+}
+
+
+
+
+.detel h2{
+	font-size: 40px;
+	color: #212121;	
+	font-weight: bold;	
+	margin-left: 0%;
+	background: -webkit-linear-gradient(#8e0e00, #1f1c18);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.detel p{
+	
+	line-height: 21px;
+	font-size: 18px;
+	padding-top: 10px;
+	margin-left: 1%;
+	background: -webkit-linear-gradient(#68216B, #100300);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.detel a{
+text-decoration: none;
+background: #212121;
+padding: 10px 15px;
+font-weight: bold;
+color: #fff;
+display: inline-block;
+margin: 40px 0 30px 105px;
+border-radius: 8px;
+}
+
+
+.image{
+width: 45%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100px;
+
+}
+
+.image img{
+
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-40%);
+	transition: bottom 1s, left 1s;
+}
+
+
+
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons{
+	margin-top: 1%;
+	margin-left: 14%;
+
+}
+.icons i{
+    
+    font-size: 35px;
+    padding:4px;    
+    margin-left: 12px;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+#fb{
+	color:#FFFFFF;
+background:#3B5998;
+}
+#fb:hover{	font-size: 40px;color: pink;}
+
+
+#insta{
+	color:#d62976;
+	background:#fff;
+}
+#insta:hover{	font-size: 40px; color: pink;}
+
+#twit{
+	color:#fff;
+	background:#000}
+	
+#twit:hover{	font-size: 40px; color: pink}
+#google{
+	color: #4285F4;
+	background:#fff;
+}
+#google:hover{	font-size: 40px; color: pink}
+#wa{
+	color: #25d366;
+	background:#fff;
+}
+#wa:hover{	font-size: 40px; color: pink}
+#te{
+	color: #0088cc;
+	background:#fff;
+}
+#te:hover{	font-size: 40px; color: pink}
+#in{
+	color: #fff;
+	background:#0077B5;
+
+}
+#in:hover{	font-size: 40px; color: pink}
+
+
+
+
+
+
+
+
+
+
+
+
